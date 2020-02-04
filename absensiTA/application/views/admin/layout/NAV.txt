@@ -1,0 +1,132 @@
+<!-- MENU Mahasiswa
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-graduation-cap"></i> <span>MAHASISWA</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="<?php echo base_url('admin/mahasiswa') ?>"><i class="fa fa-table"></i> Data Mahasiswa</a></li>
+            <li><a href="<?php echo base_url('admin/mahasiswa/tambah') ?>"><i class="fa fa-plus"></i> Tambah Data Mahasiswa</a></li>
+          </ul>
+        </li>
+        END MENU Mahasiswa -->
+
+        <!-- MENU matkul -->
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-book"></i> <span>MATA KULIAH</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="<?php echo base_url('admin/matkul') ?>"><i class="fa fa-table"></i> Data Mata Kuliah</a></li>
+            <li><a href="<?php echo base_url('admin/matkul/tambah') ?>"><i class="fa fa-plus"></i> Tambah Data Mata Kuliah</a></li>
+          </ul>
+        </li>
+        <!-- END MENU matkul -->
+
+        <!-- MENU ruang -->
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-sitemap"></i> <span>RUANG</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="<?php echo base_url('admin/ruang') ?>"><i class="fa fa-table"></i> Data Ruang</a></li>
+            <li><a href="<?php echo base_url('admin/ruang/tambah') ?>"><i class="fa fa-plus"></i> Tambah Data Ruang</a></li>
+          </ul>
+        </li>
+        <!-- END MENU ruang -->
+
+        <!-- MENU jadwal -->
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-tasks"></i> <span>JADWAL</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="<?php echo base_url('admin/jadwal') ?>"><i class="fa fa-table"></i> Data Jadwal</a></li>
+            <li><a href="<?php echo base_url('admin/jadwal/tambah') ?>"><i class="fa fa-plus"></i> Tambah Data Jadwal</a></li>
+          </ul>
+        </li>
+        <!-- END MENU jadwal -->
+
+
+
+
+
+
+
+<li class="treeview">
+
+          <a href="#">
+            <i class="fa fa-database"></i> <span>MASTER DATA</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+
+          <ul class="treeview-menu">
+
+            <li class="treeview">
+              <a href="#"><i class="fa fa-graduation-cap"></i> <span>MAHASISWA</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li class="treeview">
+                  <a href="<?php echo base_url('admin/mahasiswa') ?>"><i class="fa fa-table"></i> Data Mahasiswa</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="treeview">
+              <a href="#"><i class="fa fa-book"></i> <span>MATA KULIAH</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li class="treeview">
+                  <a href="<?php echo base_url('admin/mahasiswa') ?>"><i class="fa fa-table"></i> Data Mata Kuliah</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="treeview">
+              <a href="#"><i class="fa fa-sitemap"></i> <span>RUANG</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li class="treeview">
+                  <a href="<?php echo base_url('admin/mahasiswa') ?>"><i class="fa fa-table"></i> Data Ruang</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="treeview">
+              <a href="#"><i class="fa fa-tasks"></i> <span>JADWAL</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li class="treeview">
+                  <a href="<?php echo base_url('admin/mahasiswa') ?>"><i class="fa fa-table"></i> Data Jadwal</a>
+                </li>
+              </ul>
+            </li>
+
+          </ul>
+
+        </li>
